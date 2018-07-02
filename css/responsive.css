@@ -1374,7 +1374,13 @@
 
 	#copyrights .col_half { text-align: center; }
 
-	#copyrights .col_half:last-child { display: none; }
+		#copyrights .col_half:last-child { 
+		    display: flex;
+		    flex-flow: column;
+		    justify-content: center;
+		    align-items: center;
+		    margin-top: 2em;
+	}
 
 	#copyrights .footer-logo {
 		margin-left: auto;
