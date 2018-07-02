@@ -373,3 +373,28 @@ body.stretched #header.full-header .container{
 .btn-link, .page-link, .page-link:hover, .page-link:focus {
     color: #274760!important;
 }
+
+
+@media (max-width: 991px){
+    .retina-logo{
+        display: flex!important;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .retina-logo img{
+        width: 80%;
+        height: auto!important;
+    }
+
+    #logo{
+        display: flex!important;
+        justify-content: flex-end!important;
+    } 
+}
+
+
+
+.icon-reorder{
+    color: #212529!important;
+}
