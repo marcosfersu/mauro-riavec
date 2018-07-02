@@ -1,0 +1,375 @@
+/* bread crumb*/
+
+.arrows { 
+    white-space: nowrap;
+    margin-bottom: 4em; 
+    padding-right: 10px;
+    padding-left: 10px;    
+}
+.arrows li {
+    display: inline-block;
+    line-height: 26px;
+    margin: 0 9px 0 -10px;
+    padding: 0 5px;
+    position: relative;
+}
+.arrows li::before,
+.arrows li::after {
+    border-right: 1px solid #666666;
+    content: '';
+    display: block;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transform: skewX(45deg);   
+}
+.arrows li::after {
+    bottom: 0;
+    top: auto;
+    transform: skewX(-45deg);
+}
+
+.arrows li:last-of-type::before, 
+.arrows li:last-of-type::after { 
+    display: none; 
+}
+
+.arrows li a { 
+   font: 17px Sans-Serif;  
+   letter-spacing: -1px; 
+   text-decoration: none;
+}
+
+.arrows li:nth-of-type(1) a { color: hsl(0, 0%, 70%); } 
+.arrows li:nth-of-type(2) a { color: hsl(0, 0%, 65%); } 
+.arrows li:nth-of-type(3) a { color: hsl(0, 0%, 50%); } 
+.arrows li:nth-of-type(4) a { color: hsl(0, 0%, 45%); } 
+
+
+
+
+/* kandi */
+
+.principal{
+	margin-top: 3em;
+}
+
+.galeria{
+	margin: 3em 0 7em 0;
+}
+
+.p-logo{
+	width: 23.6%!important;
+}
+
+.p-intitucional{
+    margin-right: 18%!important;
+    margin-bottom: 2em!important;
+}
+
+.p-line{
+	margin-bottom: 0!important;
+}
+
+.ipost .entry-title h3 a:hover, .ipost .entry-title h4 a:hover, .ipost:hover h3 a{
+    color: #702837!important;
+}
+
+
+/*KAINDL PRODUCTO*/
+
+.galeria-kaindl-producto{
+    margin: 3em 0 0 0; 
+}
+
+.galeria-kaindl-producto .container{
+    padding: 0!important;
+}
+
+.producto-kaindl-interna p{
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding: .5em 1em;
+}
+
+.buy-kaindl-interna{
+    margin-top: 5em;
+}
+
+.buy-kaindl-interna h3{
+    margin-bottom: 0;
+}
+
+.pt-i-title span{     
+    color: #702837!important; 
+    font-weight: 100;   
+}
+
+.buy-kaindl-interna p{
+    margin-bottom: 1em;
+}
+
+.buy-kaindl-interna a{
+    width: 100%;
+    font-weight: 100!important;
+}
+
+.list-kaindl-interna h3{
+    font-weight: bold;
+}
+
+.list-kaindl-interna ul{
+    list-style: none;
+}
+
+.list-kaindl-interna p{
+    margin-bottom: 1em;
+    display: inline-block;
+    min-width: 30%;
+}
+
+
+
+.buy-kaindl-interna img:nth-last-child(1){
+    margin: 0 2em;
+}
+
+.porfolio-kaindl-interna{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.porfolio-kaindl-interna h2{
+    text-align: center;
+}
+
+.porfolio-kaindl-interna .producto-kaindl-interna{
+    width: 15%;
+    min-width: 200px;
+    margin: 2em auto;
+}
+
+.todos-kaindl-interna h2{
+    text-align: center;
+    margin-top: 3em;
+}
+
+
+
+/* PISOS TECNICOS */
+
+.pt-caracteristicas h3{
+	height: 4em;
+}
+
+.pt-tipos-pisos{
+	display: flex;
+	justify-content: space-around;
+	margin: 9em 0;
+}
+
+.pt-tipos-pisos .pt-images{
+	width: 30%!important;
+	padding: 1em;
+	border: 1px solid gray;
+	border-radius: 6%;
+}
+
+.pt-tipos-pisos .pt-images:hover{
+/*	border: 2px solid gray; */
+    box-shadow: 0 0 20px 1px #888888;
+    transition: all ease .4s;
+}
+
+.pt-tipos-pisos .pt-images h3{
+	text-align: center;
+}
+
+
+.feature-box .fbox-icon i, .feature-box .fbox-icon img {
+    background-color: #702837!important;
+}
+
+
+.pt-caracteristicas .flex-caption  h1{
+	margin-bottom: 0!important;
+	color: white;
+}
+
+
+/* MENU */
+
+
+#primary-menu ul li:hover > a, #primary-menu ul li.current > a {
+    color: #702837!important;
+}
+
+.dark #primary-menu:not(.not-dark) ul ul, .dark #primary-menu:not(.not-dark) ul li .mega-menu-content, #primary-menu.dark ul ul, #primary-menu.dark ul li .mega-menu-content {
+    background-color: #333;
+    border-color: #3F3F3F;
+    border-top-color: #702837!important;
+}    
+
+#header.full-header #primary-menu > ul {
+    border-right: none!important;
+}
+
+#header.full-header #logo {
+    border-right: none!important;
+}
+
+/*#header, #header-wrap, #logo img {
+    height: auto!important;    
+}
+
+#logo img{
+    padding: 39px 15px;    
+    transition: all ease .4s!important;    
+}
+
+#header.sticky-header:not(.static-sticky) #logo img {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    transition: all ease .4s;
+}
+
+*/
+
+#primary-menu ul li:hover > a, #primary-menu ul li.current > a {
+    color: black!important;
+}
+
+.dark #header.transparent-header.full-header:not(.sticky-header) #header-wrap:not(.not-dark), #header.transparent-header.full-header.dark:not(.sticky-header) #header-wrap:not(.not-dark) {
+    background-color: white;
+}
+
+.boxed-slider {
+     padding-top: 0!important; 
+}
+
+body.stretched #header.full-header .container{
+	max-width: 1205px!important;
+}
+
+#header.full-header #primary-menu > ul {
+	margin-right: 0!important;
+	padding-right: 0!important;
+}
+
+
+
+
+
+
+.pt-items h3{
+    font-size: 42px!important;	
+}
+
+
+.pt-portfolio-1 .portfolio-desc {
+    padding: 10px 40px 10px 0!important;
+    width: 55%!important;
+    margin-right: 6em;
+}
+
+.pt-portfolio-1 .portfolio-desc p {
+    margin: 10px 0 10px 0!important;
+    font-size: 14px;
+    line-height: 1.5!important;
+}
+
+.portfolio-desc .pt-i-title, .pt-i-list .pt-i-title{
+	height: auto!important;
+	margin-top: 2em!important;
+	font-size: 22px!important;
+}
+
+.pt-i-datos p{
+	font-size: 16px!important;
+	color: #702837!important;
+
+}
+
+.pt-i-images{
+	margin-top: 7em;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 7em;
+}
+
+.pt-i-images img{
+	width: auto;
+}
+
+
+.pt-portfolio-1 .portfolio-item .portfolio-image {
+    float: left;
+    margin-right: 0;
+    width: 35%!important;
+    height: auto;
+}
+
+.flex-control-nav li a {
+    border: 1px solid #212529!important;
+}
+
+.flex-control-nav li:hover a, .flex-control-nav li a.flex-active {
+    background-color:  #212529!important;
+}
+
+
+
+
+.pt-i-list{
+	display: flex;
+	justify-content: space-between;
+}
+
+.pt-i-list>div{
+	width: 45%;
+}
+
+.pt-i-list ul{
+	list-style: none;
+}
+
+.pt-i-list ul p{
+	margin-bottom: 15px!important;
+}
+
+.kaindl-interna-texto{
+    margin-bottom: 0!important;
+}
+
+
+.kaindl-interna-texto p{
+    font-size: 1.3em;
+}
+
+.sin-linea::after{
+    border-top: none!important;
+}
+
+.margin-top{
+    margin-top: 1em;
+}
+
+
+
+#header.transparent-header.full-header #header-wrap {
+    border-bottom: 6px solid #f69422!important;
+}
+
+
+#copyrights {
+    padding: 40px 0 10px 0!important;
+}
+
+.btn-link, .page-link, .page-link:hover, .page-link:focus {
+    color: #274760!important;
+}
