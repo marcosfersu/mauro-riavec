@@ -59,24 +59,16 @@
 	font-size: .9em!important;
 }
 
-.circle-legal span{
-    position: absolute;
-    left: 14px;
-    top: 1px;
-    color: black!important;
-    font-size: 1.3em!important;
-}
-/*
 .circle-legal::after{
     content: "";
-    width: 25px!important;
-    height: 25px!important;
-    border: solid black 1px;
+    width: 15px!important;
+    height: 15px!important;
+    background-color: black;
     border-radius: 50%;
     position: absolute;
     left: 5px;
     top: 3px;
-}*/
+}
 
 .circle-legal{
 	color: blue;
