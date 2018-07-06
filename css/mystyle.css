@@ -149,6 +149,18 @@
 	width: 60%!important;
 }
 
+@media (max-width: 990px){
+	.card-body{
+		width: 100%!important;
+	}
+}
+
+.galeria{
+    width: 90%!important;
+}
+
+
+
 .sit-top{
 	margin-top: 0!important;
 }
