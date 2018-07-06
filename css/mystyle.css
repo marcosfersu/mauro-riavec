@@ -198,7 +198,11 @@
 }
 
 .links-title h1{
-	margin-bottom: 0;
+	margin-bottom: 2em;
+}
+
+.links-title article{
+	margin-bottom: 6em;
 }
 
 @media (max-width: 767px){
@@ -246,4 +250,11 @@
 
 .button{
 	background-color: #274760!important;
+}
+
+
+@media (max-width: 767px){
+	.galeria-kaindl-producto{
+		display: none!important;
+	}
 }
