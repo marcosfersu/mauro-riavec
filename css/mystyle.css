@@ -81,7 +81,7 @@
 .texto-legal{
 	font-size: 1.3em;
 	text-align: center;
-	width: 70%;
+	width: 60%;
 	margin: auto;
 }
 
@@ -165,6 +165,10 @@
 	margin-top: 0!important;
 }
 
+.links{
+	margin-top: 2em;
+}
+
 .links ul{
 	list-style: none;
 	display: inline-block;
@@ -190,6 +194,7 @@
 
 .links-img img{
 	position: relative;
+	max-width: 50%!important;
 
 }
 
@@ -198,7 +203,7 @@
 }
 
 .links-title h1{
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 .links-title article{
@@ -257,4 +262,51 @@
 	.galeria-kaindl-producto{
 		display: none!important;
 	}
+}
+
+
+#primary-menu ul ul li > a{
+	color: white!important;
+	font-weight: 100!important;
+}
+
+#primary-menu ul ul li:hover > a{
+	color: white!important;
+}
+
+#footer i{
+    color: rgba(255,255,255,0.25);
+}
+
+.text-footer{
+	display: inline-block;
+	margin-left: .5em;
+	margin-bottom: 0!important;
+}
+
+.feature-box.fbox-plain.fbox-small{
+	padding-left: 0!important;
+}
+
+.slider-arrow-left, .slider-arrow-right, .flex-prev, .flex-next, .slider-arrow-top-sm, .slider-arrow-bottom-sm {
+	display: none;
+}
+
+
+.links-title .col_half{
+	margin-bottom: 0!important;
+}
+
+.slider-principal{
+	margin-top: 0!important;
+	padding-top: 0!important;
+	padding-bottom: 0!important;
+}
+
+.copyright-links i{
+    margin: 0 .3em 0 1em;
+}
+
+.card-body p{
+	margin-bottom: 1em!important;
 }

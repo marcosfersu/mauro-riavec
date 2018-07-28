@@ -207,7 +207,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark #primary-menu:not(.not-dark) ul ul li:hover > a,
 #primary-menu.dark ul ul li:hover > a {
 	background-color: rgba(0,0,0,0.1);
-	color: #472583!important;
+	color: white!important;
 }
 
 .dark #primary-menu:not(.not-dark) ul ul > li.sub-menu > a,
